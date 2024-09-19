@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data" id="formid">
+        <label for="user">Username : </label>
+        <input type="text" name="user" id="user" placeholder="Nhập Username">
+        <br>
+
+        <label for="Password">Password  : </label>
+        <input type="password" name="password" id="password" placeholder="Nhập Mật Khẩu">
+
+       <input type="hidden" name="masanpham" id="masanpham">
+        <br>
+
+        <input type="checkbook" name="sotThich" id="bongRo"><label for="bongRo">Bóng rổ</label>
+        <input type="checkbox" name="soThich" id="cauLong"><label for="cauLong">Cầu lông</label>
+        <input type="checkbox" name="soThich" id="ngheNhac"><label for="ngheNhac">Nghe nhạc</label>
+        <br>
+        <input type="radio" name="gioiTinh" id="nam"><label for="nam">Nam</label>
+        <input type="radio" name="gioiTinh" id="nu"><label for="nu">Nữ</label>
+       <br>
+           <label for="avatar">Avatar : </label>
+          <input type="file" name="avater" id="avatar">
+
+       <br>
+             <label for="mausac">Chọn bảng màu : </label>
+             <input type="color" name="mausac" id="mausac">
+        <br>
+        <label for="date">Date : </label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="datetime-local">Datetime : </label>
+        <input type="datetime-local" name="datetime" id="datetime">
+        <br>
+        <label for="week">Week : </label>
+        <input type="week" name="week" id="week">
+        <br>
+        <label for="month">Tháng : </label>
+        <input type="month" name="month" id="month">
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="number">Number : </label>
+        <input type="number" name="number" id="number">
+        <br>
+        <label for="range">Giá Tiền : </label>
+        <input type="range" name="range" id="range">
+        <br> 
+        Chọn tỉnh <select name="Province" id="Province">
+            <option value="">--Chọn tỉnh--</option>
+            <option value="Hn">--Hà Nội--</option>
+            <option value="Qn">--Quảng Ninh--</option>
+            <option value="HCM">--Hồ Chí Minh--</option>
+            <option value="HP">--Hải Phòng--</option>
+            <option value="HB">--Hoà Bình--</option>
+        </select>
+        <br>
+
+        <textarea name="" id=""></textarea>
+       <br>
+         <input type="reset" name="reset" id="reset" >
+       <br>
+        <input type="button" name="button" id="button" value="Gửi">
+        <input type="submit" name="submit" id="submit" value="Gửi">
+    </form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký Thành Viên</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table width="500px">
+            <caption><h1>Đăng kí thành viên</h1></caption>
+            <tr>
+                <td width="150">Họ và tên</td>
+                <td>
+                    <input type="text" name="fullname" id="fullname" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td> 
+                    <input type="password" name="password" id="password" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Ảnh đại diện</td>
+                <td>
+                    <input type="file" name="avatar" id="avatar" size="30">
+                </tr>
+                <tr>
+                    <td>Thư Điện Tử</td>
+                    <td>
+                        <input type="email" name="email" id="email" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="1">
+                        <label for="male">Nam</label>
+                        <input type="radio" name="gender" id="female" value="0">
+                        <label for="male">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox" name="bongda " id="bongda">
+                        <label for="bongda">Bóng đá</label> 
+                        <input type="checkbox" name="xemphim" id="xemphim">
+                        <label for="xemphim">Xem phim</label>
+                        <input type="checkbox" name="dulich" id="dulich">
+                        <label for="dulich">Du lịch</label>
+                        <input type="checkbox" name="boi" id="boi">
+                        <label for="boi">Bơi</label>
+                        <input type="checkbox" name="nghenhac" id="nghenhac">
+                        <label for="nghenhac">Nghe nhạc</label>
+                    </td>
+                </tr>
+                <tr>
+                <td>Quê Quán
+                <td>
+                    <select name="provide" id="provide">
+                        <option value="">--Chọn tỉnh--</option>
+                        <option value="hanoi">--Hà Nội--</option>
+                        <option value="haiphong">--Hải Phòng--</option>
+                        <option value="quangninh">--Quảng Ninh--</option>
+                        <option value="namdinh">--Nam Định--</option>
+                        <option value="tuyenquang">--Tuyên Quang--</option>
+                        <option value="hagiang">--Hà Giang--</option>
+                        <option value="langson">--Lạng Sơn--</option>
+                        <option value="hue">--Huế--</option>
+                        <option value="quangnam">--Quảng Nam--</option>
+                    </select>
+                </td>
+            </td>
+                </tr>
+                <tr>
+                    <td>Địa Chỉ</td>
+                    <td>
+                        <input type="text" name="address" id="address" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện Thoại</td>
+                    <td>
+                        <input type="text" name="mobile" id="mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mô tả ngắn</td>
+                   <td><textarea name="description" id="description" cols="40" rows="5"></textarea></td> 
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Đăng ký" name="register" id="">
+                        <input type="reset" value="Làm lại" name="reset">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
